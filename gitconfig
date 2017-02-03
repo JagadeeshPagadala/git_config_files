@@ -8,3 +8,11 @@
 	sta = status
 	stat = status
 	
+[diff]
+	tool = vimdiff
+[color]
+	diff = always
+[color "branch"]
+	current = green
+	remote = red
+	local = reverse
