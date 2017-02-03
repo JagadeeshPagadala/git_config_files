@@ -1,9 +1,10 @@
-Creating a Branch:
-	git branch more
-	git checout  more 
+1. Creating a Branch:
+	git branch <branch_name>
+	git checout <branch_name>
 
 	/* Do the changes */
 	git commit (git commit -m "Comment")
 	git push   --set-upstream  origin   more(brnahc name)
-						
-
+2. Deleting a branch
+	git branch -d <local_branch>
+	git push origin  :<branch> 
