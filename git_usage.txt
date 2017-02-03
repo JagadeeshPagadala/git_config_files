@@ -5,6 +5,8 @@
 	/* Do the changes */
 	git commit (git commit -m "Comment")
 	git push   --set-upstream  origin   more(brnahc name)
-2. Deleting a branch
+2. merge a branch (to merge branch_name to master branch)
+	git merge <branch_name>
+3. Deleting a branch
 	git branch -d <local_branch>
 	git push origin  :<branch> 
