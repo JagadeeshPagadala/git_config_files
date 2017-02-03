@@ -1,0 +1,9 @@
+Creating a Branch:
+	git branch more
+	git checout  more 
+
+	/* Do the changes */
+	git commit (git commit -m "Comment")
+	git push   --set-upstream  origin   more(brnahc name)
+						
+
